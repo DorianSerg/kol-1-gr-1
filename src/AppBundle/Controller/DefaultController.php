@@ -137,12 +137,19 @@ public function  endAction()
     }
     /* J */
     /**
- * @Route("/job.html", name="job")
- */
-public function  jobAction()
-{
-    return $this->render('default/job.html.twig');
-}
+     * @Route("/job.html", name="job")
+      */
+    public function  jobAction()
+    {
+        return $this->render('default/job.html.twig');
+    }
+    /**
+     * @Route("/justice.html", name="justice")
+     */
+    public function  justiceAction()
+    {
+   	 return $this->render('default/justice.html.twig');
+    }
     /* K */
 /**
  * @Route("/keep.html", name="keep")
